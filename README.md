@@ -1,2 +1,2 @@
 # projetinho_toguro
-projeto com colaboração do @7jp7
+projeto com colaboração do @jp7
