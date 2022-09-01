@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 h1{
@@ -13,18 +12,10 @@ h1{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
-    background-clip: text;
+    -webkit-background-clip: text;
     }
 
 body{
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-
-}
-
-div.navbar{
     background-image: url(../imagens/cafe_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +33,6 @@ div.navbar{
     max-width: fit-content;
     text-align: center;
     font-size: 55px;
-
 }
 
 section{
@@ -52,22 +42,8 @@ section{
     border-radius: 8px;
     width: 350px;
     height: 270px;
-}
-
-section.boxCentral{ 
-    text-align: center;
-    padding: 20px 14px;
     margin: auto;
-    
-}
-
-
-
-#botao{
-    padding: 10px;
-    border-color: rgba(58, 22, 11, 0.849);
-    background-color: #FFF;
-
+    font-family: sans-serif;
 }
 
 section p.subtile{
