@@ -3,10 +3,9 @@ let email = document.getElementById ("email");
 form.addEventListener('submit', (e) =>{
     if(email.value == "") {
         textform.textcontent("Preencha com um e-mail valído." <br> "Ex.: abc@com");
-    }
-        else(
-            console.log(email.value);
-        )
+    }   else{
+        console.log(email.value);
+        }
 
         e.preventDefault()
 })
