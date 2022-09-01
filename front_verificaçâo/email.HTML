@@ -10,7 +10,7 @@
 <body>
 
 <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav id="navbar">
         <h1>Coffe'Brazil
         </h1>
     </nav>
@@ -26,21 +26,20 @@
 
             <div class="dmail">
                 <p class="pmail">email :</p>
-                <input type="email" name="email" id="pemail">
+                <input type="email" id="pemail">
+                <small id="textEmail"></small>
             </div>
 
             <div class="smail">
                 <p class="smail">senha : </p>
-                <input type="email" name="email" id="semail">
-             </div>
-
-            <div>
-                <button type="button" class="botaodiv" id="botao">Enviar
-                </button>       
+                <input type="password" id="semail">
+                <small id="textPassword"></small>    
             </div>
-
+            <button type="button" class="botaodiv" id="botao">Enviar
+            </button> 
+            <small id="textForm"></small>      
     </form>
-
+    <script src="main.js"></script>
     </section>
 </body>
 </html>
