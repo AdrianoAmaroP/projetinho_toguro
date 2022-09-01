@@ -10,25 +10,25 @@
 <body>
 
 <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
-        <h1>Coffe'Brazil
-        </h1>
-    </nav> <br>
-<!-- Navbar End-->   
+    <div class="navbar">
+        <h1>Coffe'Brazil</h1>
+    </div> 
+<!-- Navbar End--> 
+
     <section class="boxCentral">
+        <form autocomplete="off">
+            <p>Seja nosso parceiro se inscrevendo abaixo.
+            </p>    <br>
 
-        <p>seja nosso parceiro se inscrevendo abaixo.
-        </p>
-
-        <div><input type="email" name="email" id="email">
-        </div>
-
-        <div>
-            <button type="button" class="btn text-dark" id="botao">
+            <div>
+                <input type="email" name="email" id="email" placeholder=" E-mail">
+                <small id="textEmail"></small>
+            </div>  <br>
+            <button type="submit" class="btn text-white" id="botao">
                 <p>Enviar</p>
-            </button>       
-        </div>
-
+            </button>
+            <small id="textForm"></small>       
+        </form>
     </section> 
 </body>
 </html>
