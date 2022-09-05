@@ -1,13 +1,24 @@
 let email = document.getElementById ("email");
+let password = document.getElementById ("password");
+let form = document.getElementById ("email");
+let textForm = document.getElementById ("textForm");
+let textEmail = document.getElementById ("textEmail");
 
 form.addEventListener('submit', (e) =>{
-    if(email.value == "") {
-        textform.textcontent("Preencha com um e-mail valído." <br> "Ex.: abc@com");
+    if(email.value == " " && password.value == " ") {
+        textForm.textcontent("Preencha todos os campos.");
     }   else{
         console.log(email.value);
-        }
+        console.log(password.value);
+    }
 
-        e.preventDefault()
+    e.preventDefault()
+})
+
+email.addEventListener("keyup", () =>{
+    if(validatorEmail(email.value) !==true){
+        textEmail.textContent = "Preencha com um e-mail valído." <br> "Ex.: abc@com"
+    }
 })
 
 function validatorEmail(email){
